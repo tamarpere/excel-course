@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/tamarpere/excel-course#readme",
   "private": true,
+  "browserslist": "> 0.25%, not dead",
   "devDependencies": {
     "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.19.1",
@@ -41,6 +42,7 @@
     "webpack-dev-server": "^4.11.1"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.12.1"
+    "@babel/polyfill": "^7.8.3",
+    "normalize.css": "^8.0.1"
   }
 }
